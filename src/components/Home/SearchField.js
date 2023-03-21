@@ -143,6 +143,12 @@ const SearchField = ({
                   {
                     border: "none",
                   },
+                "& .css-kgkwc8::after": {
+                  border: "none",
+                },
+                "& .css-kgkwc8::before": {
+                  border: "none",
+                },
               }}
               id="standard-basic"
               variant="standard"
