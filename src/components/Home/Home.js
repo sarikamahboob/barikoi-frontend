@@ -18,7 +18,7 @@ const Home = () => {
       {sidebarOpen && (
         <Grid
           item
-          md={6}
+          md={5}
           sm={12}
           xs={12}
           sx={{ height: { sm: "80%", md: "100%" } }}
@@ -33,7 +33,7 @@ const Home = () => {
       {/* Map Panel */}
       <Grid
         item
-        md={sidebarOpen ? 6 : 12}
+        md={sidebarOpen ? 7 : 12}
         sm={12}
         xs={12}
         sx={{ position: "relative" }}

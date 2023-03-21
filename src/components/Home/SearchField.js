@@ -94,15 +94,28 @@ const SearchField = ({
               justifyContent: "space-between",
             }}
           >
-            <Typography
-              sx={{
-                fontSize: "24px",
-                color: "primary.main",
-                marginBottom: "20px",
-              }}
-            >
-              Map
-            </Typography>
+            <Box sx={{ display: "flex" }}>
+              <Typography
+                sx={{
+                  fontSize: "24px",
+                  color: "secondary.main",
+                  marginBottom: "20px",
+                  fontWeight: "700",
+                }}
+              >
+                Bari
+              </Typography>
+              <Typography
+                sx={{
+                  fontSize: "24px",
+                  color: "primary.main",
+                  marginBottom: "20px",
+                  fontWeight: "700",
+                }}
+              >
+                koi
+              </Typography>
+            </Box>
             <Typography>
               <FormControlLabel
                 control={
@@ -147,6 +160,9 @@ const SearchField = ({
                   border: "none",
                 },
                 "& .css-kgkwc8::before": {
+                  border: "none",
+                },
+                "& .css-kgkwc8:hover:not(.Mui-disabled, .Mui-error)::before": {
                   border: "none",
                 },
               }}
