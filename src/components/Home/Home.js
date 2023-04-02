@@ -1,7 +1,7 @@
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import { Box, Grid } from "@mui/material";
 import { useState } from "react";
-import Map from "./Map";
+import MainMap from "./Map";
 import SearchField from "./SearchField";
 
 const Home = () => {
@@ -53,7 +53,7 @@ const Home = () => {
             />
           </Box>
         )}
-        <Map selectPosition={selectPosition} setSidebarOpen={setSidebarOpen} />
+        <MainMap selectPosition={selectPosition} setSidebarOpen={setSidebarOpen} />
       </Grid>
     </Grid>
   );
